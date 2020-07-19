@@ -11,11 +11,118 @@
     <!-- Custom Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
-    <title>Hello, world!</title>
+    <title>My website</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <button class="btn btn-primary">Click me</button>
+    <header>
+      <ul class="nav justify-content-center">
+        <h2>
+          <li class="nav-item">
+            <a class="nav-link active" href="#interests">Interests</a>
+          </li>
+        </h2>
+        <h2>
+          <li class="nav-item">
+            <a class="nav-link" href="#biography">Biography</a>
+          </li>
+        </h2>
+        <h2>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </h2>
+      </ul>
+    </header>
+    <main>
+      <div class="connect">
+        <div class="row">
+          <div class="icon">
+            <a href="https://github.com/">
+              <img src="logos/github.svg" />
+            </a>
+          </div>
+          <div class="icon">
+            <a href="https://www.instagram.com/"
+              ><img src="logos/instagram.svg"
+            /></a>
+          </div>
+          <div class="icon">
+            <a href="https://www.facebook.com/"
+              ><img src="/logos/facebook.svg"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <section class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h2>Introduction</h2>
+              <p class="lead">-Web Developer in the making-</p>
+              <h4>Hi! My name is Marius.</h4>
+              <h4>My goal is to become a web developer.</h4>
+              <h4>I am currently taking part in a coding bootcamp.</h4>
+              <h4>This my first ever selfmade website.</h4>
+              <h4>I hope you enjoy it.</h4>
+            </div>
+            <div class="col-sm">
+              <div class="air">
+                <h2>Marius Spomer</h2>
+                <img
+                  src="/images/profilbild.jpg"
+                  alt="profilbild"
+                  class="bild"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jumbotron" id="interests">
+        <h2>Interests</h2>
+        <div class="container" style="margin-top: 3%;">
+          <div class="row">
+            <div class="col-sm">
+              <img src="/logos/basketball.svg" style="width: 70%;" />
+              <h3 class="discription">Sports</h3>
+            </div>
+            <div class="col-sm">
+              <img src="logos/movie.svg" style="width: 70%;" />
+              <h3 class="discription">Movies/Series</h3>
+            </div>
+            <div class="col-sm">
+              <img src="logos/books.svg" style="width: 70%;" />
+              <h3 class="discription">Books</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="jumbotron" id="biography">
+        <div class="container">
+          <h2>Biography</h2>
+
+          <h3 class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur maxime deleniti expedita, ab ducimus ipsam
+            necessitatibus non dolores eum vel odio sapiente eveniet ut officia
+            ipsum error nobis quae eligendi.
+          </h3>
+        </div>
+      </section>
+      <section class="jumbotron" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <h3>Telefon: 017631293393</h3>
+          <h3>e-mail:mariusspomer@web.de</h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <small>© Mspomer 2020</small>
+      </div>
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

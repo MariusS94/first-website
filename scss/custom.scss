@@ -1,8 +1,52 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: #613045;
+$body-color: #81616a;
+$primary: #e6cfbb;
+$font-family-base: helvetica;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+  background-color: rgb(66, 61, 61);
+  margin-bottom: 0px;
+  height: 550px;
+  text-align: center;
+}
+
+.bild {
+  padding: 10px;
+  font-size: 30px;
+  width: 200px;
+}
+
+.air {
+  margin-left: 100px;
+}
+.icon {
+  width: 50px;
+  fill: green;
+  padding-left: 10px;
+}
+.connect {
+  margin-left: 10px;
+}
+#interests {
+  margin-top: 0px;
+  background-color: rgb(41, 39, 39);
+}
+.discription {
+  margin-top: 50px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+#contact {
+  background-color: rgb(41, 39, 39);
+}
+.lead {
+  color: #e6cfbb;
+}
